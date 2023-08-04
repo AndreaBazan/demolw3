@@ -1,0 +1,60 @@
+h1{
+  font-size: 48px;
+}
+
+p{
+  color: white;
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+h3{
+  font-size: 32px;
+}
+
+button {
+  color: white;
+  background-color: #1A48E3;
+  height: 40px;
+  width: 140px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+}
+body{
+  font-family: 'Chivo', sans-serif;
+}
+
+
+.banner {
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+  color: white;
+}
+.cities{
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+}
+
+.container {
+  margin: 60px auto;
+  display: block;
+}
+
+.card-city{
+      background: white;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    padding: 24px;
+    margin: 8px;
+    flex-grow: 1;
+
+}
+
+p{
+  color: black;
+}
